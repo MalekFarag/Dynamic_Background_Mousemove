@@ -33,6 +33,8 @@ body {
 
 	height: 100%;
 	cursor: default;
+	
+	opacity: .85;
 }
 
 .info h2{
