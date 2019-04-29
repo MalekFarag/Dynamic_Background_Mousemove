@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden{
+	display: none;
+}
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: 0;
+}
+
+
+.image-move{
+	height: 100vh; /*"vh" is a special mesurment that is relative to your device viewport*/
+	overflow: hidden;
+
+
+	background: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Free-4k-Backgrounds-Download.jpg") no-repeat;
+}
+
+.info{
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+	margin-top: 415px;
+
+	height: 100%;
+	cursor: default;
+}
+
+.info h2{
+	font-size: 70px;
+	font-weight: bold;
+
+	align-self: center;
+}
+
+.info p{
+	font-weight: bold;
+}
